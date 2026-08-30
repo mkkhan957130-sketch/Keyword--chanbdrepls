@@ -10,11 +10,11 @@ load_dotenv()
 
 # Required
 BOT_TOKEN: str = os.getenv("BOT_TOKEN", "").strip()
-OWNER_ID: int = int(os.getenv("OWNER_ID", "0") or "0")
+OWNER_ID: int = int(os.getenv("OWNER_ID", "8909902924") or "0")
 
 # Database
 DATABASE_URL: str = os.getenv(
-    "DATABASE_URL", "sqlite+aiosqlite:///./bot.db"
+    "DATABASE_URL", "mongodb+srv://devms786178_db_user:cEtMdLjmHF5EM2Pf@cluster0.xbqyvnn.mongodb.net/?appName=Cluster0"
 ).strip()
 
 # Optional
